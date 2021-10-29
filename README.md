@@ -18,7 +18,7 @@ Raw StudentLife data: [link](https://studentlife.cs.dartmouth.edu/). Download th
 
 ## Folder Structure
 
-## data
+### data
 
 Cleaned data, created by the notebooks/data_cleaning.ipynb notebook, is provided in the "data" folder. The cleaned data has behavior features-EMAs aligned between the datasets, by taking the average across the 3-days up to and including the day the EMA was taken. See the "Sensor-EMA Alignment" subsection in the paper. The files are:
 
@@ -38,7 +38,7 @@ Cleaned data, created by the notebooks/data_cleaning.ipynb notebook, is provided
 * run_cv.py: Runs the regression_cv.py LOSO-CV code
 * regression_cv.py: LOSO-CV code
 
-## res
+### res
 
 This folder is left blank, but you will see that various results files are used in the simple_regression_models_analysis.ipynb notebook. I was not able to push the output files to github because the filesize is too large.
 
