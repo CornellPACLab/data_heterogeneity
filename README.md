@@ -1,8 +1,8 @@
 # data_heterogeneity
 
-Repository for paper "Combining longitudinal mobile sensing studies to improve passive mental health symptom prediction: a retrospective multisite study"
+Repository for paper "Machine learning for passive mental health symptom prediction: generalization across different longitudinal mobile sensing studies"
 
-Last updated: 10/29/2021
+Last updated: 11/11/2021
 
 ## Questions?
 
