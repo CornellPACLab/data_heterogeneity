@@ -26,7 +26,7 @@ params_dict = {
         'random_state': [42]
     }
 }
-output_filename ='../res/loso_res_df_all_v11_10182021.csv.gz'
+output_filename ='../res/loso_res_df_all_v10_10182021.csv.gz'
 
 
 if __name__ == "__main__":

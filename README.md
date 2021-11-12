@@ -20,7 +20,7 @@ Raw StudentLife data: [link](https://studentlife.cs.dartmouth.edu/). Download th
 
 ### data
 
-Cleaned data, created by the notebooks/data_cleaning.ipynb notebook, is provided in the "data" folder. The cleaned data has behavior features-EMAs aligned between the datasets, by taking the average across the 3-days up to and including the day the EMA was taken. See the "Sensor-EMA Alignment" subsection in the paper. The files are:
+Cleaned data, created by the notebooks/data_cleaning.ipynb notebook, is provided in the "data" folder. The cleaned data has behavior features-EMAs aligned between the datasets, by taking the average across the 3-days up to and including the day the EMA was taken. See the "Sensor-EMA Alignment Across Studies" subsection in the paper. The files are:
 
 * CrossCheck data: crosscheck_daily_data_cleaned_w_sameday.csv
 * StudentLife data: studentlife_daily_data_cleaned_w_sameday_08282021.csv
