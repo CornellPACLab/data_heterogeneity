@@ -149,13 +149,13 @@ def grouped_paired_test(df, col1, col2):
     if shapiro(df[col1] - df[col2])[1] < .05:
         res = pg.wilcoxon(df[col1], df[col2], alternative='greater')
         res = pd.Series(
-            ['W', res.loc['Wilcoxon', 'p-val'], res.loc['Wilcoxon', 'RBC']],
-            index=['test', 'pval', 'effect']
+            ['W', res.loc['Wilcoxon', 'W-val'], res.loc['Wilcoxon', 'p-val'], res.loc['Wilcoxon', 'RBC']],
+            index=['test', 'W-val', 'pval', 'effect']
         )
         return res
     else:
         res = pg.ttest(df[col1], df[col2], alternative='greater', paired=True)
-        return 'T', res.loc['T-test', 'p-val'], res.loc['T-test', 'cohen-d']
+        return 'T', res.loc['T-test', 'p-val'], res.loc['T-test', 'p-val'], res.loc['T-test', 'cohen-d']
 
 
 def non_paired_test(x, y):
