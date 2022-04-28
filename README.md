@@ -2,7 +2,11 @@
 
 Repository for paper "Machine learning for passive mental health symptom prediction: generalization across different longitudinal mobile sensing studies"
 
-Last updated: 03/27/2022
+Last updated: 04/28/2022
+
+Paper citation:
+Daniel A. Adler, Fei Wang, David C. Mohr, and Tanzeem Choudhury. 2022. Machine learning for passive mental health symptom prediction: Generalization across different longitudinal mobile sensing studies. PLOS ONE 17, 4: e0266516.
+
 
 ## Questions?
 
