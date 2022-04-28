@@ -2,7 +2,7 @@
 
 Repository for paper "Machine learning for passive mental health symptom prediction: generalization across different longitudinal mobile sensing studies"
 
-Last updated: 11/11/2021
+Last updated: 03/27/2022
 
 ## Questions?
 
