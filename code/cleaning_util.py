@@ -707,14 +707,13 @@ def correct_sleep(df, ema_df, correction='mean'):
 
 def clean_sleep_data(df_dict, cutoff_duration=30, start_time=22, ema_df=None, correction='mean'):
     """
-    Create sleep duration from unlock data
-
-    :param df: dict<str:pd.DataFrame>, the sleep unlock dicts
+    Create sleep duration from lock data
+    
+    :param df: dict<str:pd.DataFrame>, the sleep lock dataframes
     :param cutoff_duration: <int>, the time to cutoff phone unlocks
     :param start_time: <int>, the time to start looking at phone duration
     :param ema_df: pd.DataFrame, the ema_df to calculate the corrective term
     :param correction: <str>, whether to use mean/median error as correction
-
     :return: pd.DataFrame, the DataFrame
     """
     all_dfs = []
